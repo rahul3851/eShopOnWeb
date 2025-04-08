@@ -7,6 +7,7 @@ on: [push, workflow_dispatch]
 env:
   RESOURCE-GROUP: rg-eshoponweb-3851
   TEMPLATE-FILE: infra/webapp.bicep
+  LOCATION: eastus
   SUBSCRIPTION-ID: 45ae20f7-e39a-4833-8fac-2879943001ef
   WEBAPP-NAME: eshoponweb-webapp-3851
 
